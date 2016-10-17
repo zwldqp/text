@@ -1,0 +1,162 @@
+#news{
+    height: 152px;
+    margin-top: 20px;
+}
+#trends{
+    width: 640px;
+    float: left;
+}
+#trends .trends-title,#notice .notice-title{
+    float: left;
+    color: #333;
+    font-size: 16px;
+}
+#trends .trends-more,#notice .notice-more,#big .solgan-more{
+    float: right;
+    color: #333;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#trends .trends-list{
+    clear: both;
+}
+#trends .trends-list li{
+    width: 295px;
+    height: 30px;
+    float: left;
+}
+.news-item{
+    width: 295px;
+    height: 30px;
+    float: left;
+    background: url(img/news-list-style.png) no-repeat;
+    text-indent: 15px;
+}
+.news-itme a{
+    color: #333;
+    font-size: 12px;
+}
+#trends .trends-more:hover,#notice .notice-more:hover,#big .solgan-more:hover{
+    background: orange;
+    border-radius: 15px;
+}
+#notice{
+    width: 400px;
+    height: 100%;
+    float: right;
+}
+#notice .notice-list{
+    width: 328px;
+    border: 1px dotted #333;
+    clear: both;
+}
+#notice .notice-list li{
+    height: 28px;
+    float: none;
+    text-align: center;
+}
+#cource{
+    background: rgb(245,245,245);
+    height: 450px;
+    padding-top: 80px;
+}
+#cource h3,p{
+    color: #333;
+    text-align: center;
+}
+#cource ul{
+    width: 1100px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 50px;
+}
+#cource ul li{
+    width: 194px;
+    float: left;
+    margin-left: 20px;
+}
+#cource li img{
+    float: left;
+
+}
+#cource li a{
+    float: none;
+    text-align: center;
+    display: block;
+}
+#solgan{
+    background: pink;
+    height: 400px;
+}
+.mokuai{
+    width: 200px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+}
+#big{
+    width: 525px;
+    height: auto;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+#duiwu{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background: white;
+    display: block;
+    float: left;
+    line-height: 35px;
+    margin-top: 30px;
+}
+#span1{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background: orange;
+    display: block;
+    float: left;
+    line-height: 35px;
+    margin-top: 30px;
+}
+.solgan1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.solgan2{
+    text-align: center;
+    margin-top: 10px;
+}
+#pasige{
+    width: 520px;
+    margin-top: 20px;
+    padding-top: 20px;
+    line-height: 2.0;
+    font-size:12px;
+    border-top: 1px solid black;
+}
+#footer{
+    margin-bottom: 10px;
+    text-align: center;
+    clear: both;
+    height: 50px;
+}
+.footer-link{
+    width: 20px;
+    height: 10px;
+}
+.conte{
+    margin-top: 6px;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+.conte1{
+    font-weight: bold;
+    margin-top: 4px;
+}
